@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.surround {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+#title {
+    top: 0;
+}
+
+#legend {
+    bottom: 25px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+.blue {
+    color:#003f5c;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.orange {
+    color:#ff6361;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#toggles {
+    gap: 15px;
+}
+
+#sources {
+    bottom: 25px;
+    right: 0;
+    font-size: 13px;
+}
+
+#toggles {
+    top: 40%;
+    right: 0;
+}
+
+.mapboxgl-ctrl-geocoder {
+    min-width: 500px;
+    top: 50px;
+}
+
+.mapboxgl-popup {
+    min-width: fit-content;
+    max-width: 700px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
